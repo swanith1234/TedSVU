@@ -1,0 +1,33 @@
+footer section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    font-family: var(--ff-poppins);
+    margin: 4em auto 4em;
+    width: min(90%, 1400px);
+}
+
+.footer-map figure {
+    width: 500px;
+    height: 275px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 1220px) {
+    footer section {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .footer-map figure {
+        width: 100%;
+    }
+}

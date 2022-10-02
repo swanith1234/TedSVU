@@ -1,0 +1,22 @@
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #777;
+    margin-top: 250px;
+    font-family: "poppins", sans-serif;
+}
+
+span {
+    color: black;
+    font-size: 70px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+span a {
+    text-decoration: none;
+}
