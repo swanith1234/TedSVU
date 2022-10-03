@@ -58,13 +58,13 @@ div {
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 550px) {
     .container h1 {
         font-size: 1.15rem;
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 440px) {
     .container h1 {
         font-size: 1rem;
     }
