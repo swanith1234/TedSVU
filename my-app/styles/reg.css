@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
+
+:root {
+  --black: black;
+  --white: white;
+  --red: rgba(253, 43, 6, 0);
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-helvetica: "helvetica";
+  --transition-300: 300ms ease;
+  --black-85: rgba(0, 0, 0, 0.5);
+}
+main {
+  width: min(90%, 1440px);
+  margin-inline: auto;
+}
+main .regpg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regt h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bradley Hand, cursive;
+  font-size: 3rem;
+  margin-top: -190px;
+  margin-bottom: 150px;
+}
+main .regpg img {
+  height: 100%;
+  width: 600px;
+}
+.twob {
+  height: 100px;
+
+  display: flex;
+}
+.twob .one ul {
+  color: #aca7a6;
+  font-family: var(--ff-poppins);
+  justify-content: center;
+  display: flex;
+  /* border: 3px solid red; */
+  padding: 60px 30px 30px 0;
+  text-align: justify;
+  width: 590px;
+  flex-direction: column;
+}
+li span {
+  color: red;
+  font-size: 1.75rem;
+}
+.twob .two iframe {
+  width: 700px;
+
+  border: 4px solid blue;
+}
+
+@media (max-width: 1215px) {
+  .twob {
+    display: flex;
+    flex-direction: column;
+    width: min(80%, 1215px);
+    margin-inline: auto;
+  }
+
+  .regt h2 {
+    font-size: 1.6rem;
+    width: min(90%, 1440px);
+    margin-inline: auto;
+  }
+}
+@media (max-width: 713px) {
+  main .regpg .lgr img {
+    width: 400px;
+  }
+  main {
+    width: min(90%, 420px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    color: #aca7a6;
+    font-family: var(--ff-poppins);
+    justify-content: center;
+    display: flex;
+    /* border: 3px solid red; */
+    padding: 20px 30px 30px 0;
+    text-align: justify;
+    width: 400px;
+    flex-direction: column;
+  }
+  .regt h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 3rem;
+    margin-top: -140px;
+    margin-bottom: 90px;
+  }
+  .twob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(90%, 570px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .twob .two iframe {
+    width: 350px;
+
+    border: 6px red;
+  }
+
+  .regt h2 {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  main .regpg .lgr img {
+    width: 400px;
+  }
+  main {
+    width: min(90%, 420px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    color: #aca7a6;
+    font-family: var(--ff-poppins);
+    justify-content: center;
+    display: flex;
+    /* border: 3px solid red; */
+    padding: 20px 30px 30px 0;
+    text-align: justify;
+    width: 400px;
+    flex-direction: column;
+  }
+  .regt h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 3rem;
+    margin-top: -140px;
+    margin-bottom: 90px;
+  }
+  .twob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(90%, 570px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .twob .two iframe {
+    width: 350px;
+
+    border: 6px red;
+  }
+
+  .regt h2 {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  main .regpg .lgr img {
+    width: 400px;
+  }
+  main {
+    width: min(90%, 420px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    color: #aca7a6;
+    font-family: var(--ff-poppins);
+    justify-content: center;
+    display: flex;
+    /* border: 3px solid red; */
+    padding: 20px 30px 30px 0;
+    text-align: justify;
+    width: 400px;
+    flex-direction: column;
+  }
+  .regt h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 3rem;
+    margin-top: -140px;
+    margin-bottom: 90px;
+  }
+  .twob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(90%, 570px);
+    margin-inline: auto;
+  }
+  .twob .one ul {
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .twob .two iframe {
+    width: 350px;
+
+    border: 6px red;
+  }
+
+  .regt h2 {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}

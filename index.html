@@ -1,165 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>tedxsvu</title>
-        <link rel="stylesheet" href="./my-app/styles/header.css" />
-        <link rel="stylesheet" href="./my-app/styles/home.css" />
-        <link rel="stylesheet" href="./my-app/styles/footer.css" />
-        <link rel="stylesheet" href="./my-app/styles/globals.css" />
-        <script src="./my-app/app/script.js" defer></script>
-    </head>
 
-    <body>
-        <header>
-            <div class="logoContainer">
-                <a href="/">TEDx<span>SriVenkateswaraU</span></a>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a
-                            class="header-links"
-                            href="./index.html"
-                            class="acive"
-                            >HOME</a
-                        >
-                    </li>
-                    <li>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tedxsvu</title>
+    <link rel="icon" type="image/x-icon" href="./my-app/teamp/titlel.png" />
+    <link rel="stylesheet" href="./my-app/styles/header.css" />
+    <link rel="stylesheet" href="./my-app/styles/home.css" />
+    <link rel="stylesheet" href="./my-app/styles/footer.css" />
+    <link rel="stylesheet" href="./my-app/styles/globals.css" />
+    <script src="./my-app/app/script.js" defer></script>
+    <style>
+        body {
+            max-width: 100vw;
+            overflow-x: hidden !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <a href="/">TEDx<span>SriVenkateswaraU</span></a>
+            <br />
+            <p>x<span>= independently organised TED event</span></p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a class="header-links" href="./index.html" class="acive">HOME</a>
+                </li>
+
+                <!-- <li>
                         <a
                             class="header-links"
                             href="./my-app/pages/blogs.html"
                             class="acive"
                             >BLOGS</a
                         >
-                    </li>
-                    <li>
-                        <a
-                            class="header-links"
-                            href="./my-app/pages/team.html"
-                            class="acive"
-                            >TEAM</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            class="header-links"
-                            href="./my-app/pages/speakers.html"
-                            class="acive"
-                            >SPEAKERS</a
-                        >
-                    </li>
-                    <li>
+                    </li> -->
+                <li>
+                    <a class="header-links" href="./my-app/pages/team.html" class="acive">TEAM</a>
+                </li>
+                <li>
+                    <a class="header-links" href="./my-app/pages/speakers.html" class="acive">SPEAKERS</a>
+                </li>
+
+                <!-- <li>
                         <a
                             class="header-links"
                             href="./my-app/pages/contact.html"
                             class="acive"
                             >CONTACT US</a
                         >
-                    </li>
-                </ul>
-            </nav>
-            <div class="handBurgerMenu">
-                <svg
-                    width="30"
-                    height="30"
-                    viewBox="0 0 100 100"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <rect
-                        x="100"
-                        y="100"
-                        width="100"
-                        height="100"
-                        rx="20"
-                        transform="rotate(-180 100 100)"
-                        fill="#D9D9D9"
-                        fill-opacity="0.7"
-                    />
-                    <path
-                        d="M73 66L27 66"
-                        stroke="black"
-                        stroke-width="5"
-                        stroke-linecap="round"
-                    />
-                    <path
-                        d="M73 50L27 50"
-                        stroke="black"
-                        stroke-width="5"
-                        stroke-linecap="round"
-                    />
-                    <path
-                        d="M73 34L27 34"
-                        stroke="black"
-                        stroke-width="5"
-                        stroke-linecap="round"
-                    />
-                </svg>
+                    </li> -->
+                <li>
+                    <a class="header-links" href="./my-app/pages/reg.html" class="acive">REGISTRATION</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="handBurgerMenu">
+            <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="100" y="100" width="100" height="100" rx="20" transform="rotate(-180 100 100)" fill="#D9D9D9"
+                    fill-opacity="0.7" />
+                <path d="M73 66L27 66" stroke="black" stroke-width="5" stroke-linecap="round" />
+                <path d="M73 50L27 50" stroke="black" stroke-width="5" stroke-linecap="round" />
+                <path d="M73 34L27 34" stroke="black" stroke-width="5" stroke-linecap="round" />
+            </svg>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="homebg-container">
+                <img src="./my-app/assets/tedmain-transformed.jpeg" />
             </div>
-        </header>
+            <button class="custom-btn btn-12">
+                <span><a href="./my-app/pages/reg.html" style="color: #ffff">Let's go..!</a></span><span>Register</span>
+            </button>
+        </section>
+        <!--   payment
+            <div
+            class="razorpay-embed-btn"
+            data-url="https://pages.razorpay.com/pl_KUvVJ6kfWppgZx/view"
+            data-text="Pay Now"
+            data-color="#528FF0"
+            data-size="small"
+        >   
+            <script>
+                (function () {
+                    var d = document;
+                    var x = !d.getElementById(
+                        "razorpay-embed-btn-js"
+                    );
+                    if (x) {
+                        var s = d.createElement("script");
+                        s.defer = !0;
+                        s.id = "razorpay-embed-btn-js";
+                        s.src =
+                            "https://cdn.razorpay.com/static/embed_btn/bundle.js";
+                        d.body.appendChild(s);
+                    } else {
+                        var rzp = window["__rzp__"];
+                        rzp && rzp.init && rzp.init();
+                    }
+                })();
+            </script>
+        </div> -->
+        <section class="tedx-intro">
+            <div>
+                <h2 class="tedx-heading">TEDx SriVenkateswaraU</h2>
+                <p>
+                    We are glad to welcome you to a one of its kind event
+                    TEDxSriVenkateswaraU, a grand marvel set of talks from
+                    eminents that proved "The so-called Impossible is
+                    Infinitely Possible". With a peculiar theme of
+                    #BeyondtheHorizon that extends to meet land and sky.
+                    It's a warm pleasure for us to meet you at prestigious
+                    SVU Auditorium on November, 13th to get inspired by the
+                    divers of life seas. Bring along your buddies, families,
+                    and friends you are all welcome to the grand spectacle
+                </p>
+            </div>
+            <div class="iframe-container">
+                <iframe class="responsive_youtube_video"
+                    src="https://www.youtube.com/embed/N-l1xtCMnpw?mute=0&amp;controls=1" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+            </div>
+        </section>
+    </main>
 
-        <main>
-            <section class="hero-section">
-                <div class="homebg-container">
-                    <img src="./my-app/assets/tedmain-transformed.jpeg" />
-                </div>
-                <h2>on November 13</h2>
-            </section>
+    <footer>
+        <section>
+            <div class="logoContainer1">
+                <a href="/">TEDx<span>SriVenkateswaraU</span></a>
+                <br />
+                <p>x<span>= independently organised TED event</span></p>
+            </div>
+            <div class="footer-license">
+                <p>
+                    This independent TEDx event is operated Under <br />
+                    License under ted
+                </p>
+            </div>
 
-            <section class="tedx-intro">
-                <div>
-                    <h2 class="tedx-heading">TEDx SriVenkateswaraU</h2>
-                    <p>
-                        We are pleased to announce that the SV University
-                        version of TEDx i.e. TEDx SriVenkateswaraU is expected
-                        to be rolled out in November of this year. The TEDx
-                        SriVenkateswaraU is planned to be a grand live event
-                        with SVU's very own auditorium as its venue, where
-                        influential personalities take up the stage and speak a
-                        few words sharing their knowledge and experience with
-                        many aspirants who wish to achieve something huge in
-                        their lives. Interested scholars are more than welcome
-                        to lend their ears to our honourable speakers as they
-                        learn new things at our event.
-                    </p>
-                </div>
-                <div class="iframe-container">
-                    <iframe
-                        class="responsive_youtube_video"
-                        src="https://www.youtube.com/embed/N-l1xtCMnpw?mute=0&amp;controls=1"
-                        frameborder="0"
-                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""
-                    ></iframe>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <section>
-                <div class="footer-logo">
-                    <p>logo</p>
-                </div>
-                <div class="footer-license">
-                    <h3>License Holder</h3>
-                    <p>Tejaswaroop Valipi</p>
-                    <p>+91-9581764012</p>
-                </div>
-
-                <div class="footer-map">
-                    <figure>
+            <div class="footer-map">
+                <!-- <figure>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1439.0537103604584!2d79.3992346208385!3d13.629008302564577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b3c843bef7b%3A0x989f777cf2a2bc8a!2sSrinivasa%20Auditorium!5e0!3m2!1sen!2sin!4v1664616291534!5m2!1sen!2sin"
                             allowfullscreen=""
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
-                    </figure>
-                </div>
-            </section>
-        </footer>
-    </body>
+                    </figure> -->
+            </div>
+        </section>
+    </footer>
+</body>
+
 </html>

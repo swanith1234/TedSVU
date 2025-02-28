@@ -61,6 +61,14 @@
     color: rgb(253, 43, 6);
 }
 
+.designier {
+    display: flex;
+    gap: 80px;
+}
+.offer p {
+    color: orange;
+    font-family: Marker Felt, fantasy;
+}
 @media (max-width: 900px) {
     .block {
         width: max-content;
@@ -74,6 +82,10 @@
 @media (max-width: 650px) {
     body {
         width: 95%;
+    }
+    .designier {
+        display: flex;
+        gap: 80px;
     }
     .blockInfo {
         width: 100%;
